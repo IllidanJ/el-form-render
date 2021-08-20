@@ -1,0 +1,46 @@
+{
+  "name": "@illidanj/el-form-render",
+  "version": "0.0.1",
+  "description": "el-form-render",
+  "author": "illidanj",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IllidanJ/el-form-render.git"
+  },
+  "homepage": "https://github.com/IllidanJ/el-form-render",
+  "keywords": [
+    "form-render",
+    "vue",
+    "element-ui"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vcrontab --dest lib src/index.js"
+  },
+  "dependencies": {
+    "async-validator": "^3.5.1",
+    "color": "^3.1.2",
+    "element-ui": "^2.4.11",
+    "lodash-es": "^4.17.21",
+    "moment": "^2.24.0",
+    "nanoid": "^3.1.20",
+    "rc-color-picker": "^1.2.6",
+    "virtualizedtableforantd4": "^1.1.2",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "7.14.2",
+    "@vue/cli-plugin-babel": "4.4.4",
+    "@vue/cli-plugin-eslint": "4.4.4",
+    "@vue/cli-service": "4.4.4",
+    "babel-eslint": "8.2.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.5.17",
+    "less": "^4.1.1",
+    "less-loader": "6.0"
+  }
+}
